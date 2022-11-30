@@ -142,4 +142,4 @@ async def withdraw(ctx,money):
 async def save_information(users):
     with open('assets\\json\\money.json', 'w') as f:
         json.dump(users, f)
-client.run('MTA0NTk1MzI4OTQ3ODQ3NTg4Ng.GAeC80.FCBugIrmpqxf87cdNj_cz47s5aBsUXN880zMP0')
+client.run('')
