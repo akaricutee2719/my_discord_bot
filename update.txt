@@ -1,0 +1,44 @@
+the zoo bot UPDATE LOG 0.1.1 [BETA VERSION]
+Có thể dùng để check VAR bằng cách dùng lệnh : tz!VAR {câu hỏi thuộc dạng đúng sai}
+Có thể xem còn bao nhiêu tiền bằng cách dùng lệnh : tz!cash 
+Có thể give ai đó banana bằng cách dùng lệnh: tz!give {tag discord người muốn give} {money}
+---------GAMEPLAY-------------
+1. 50/50 game chơi bằng cách : tz!banana {số tiền cược}
+Số tiền phải là số nằm trong phạm vi 0 < x < 1000000 , phải là số
+Thua mất tiền cược, thắng được nhân đôi tiền nhận về 
+akari_cute — 11/13/2022 8:01 PM
+------------------------------------
+UPDATE LOG 0.1.2 
+Có thể xem thời khóa biểu bằng cách sử dụng lệnh tk!tkb
+-----------------------------------
+UPDATE LOG 0.2 --> 0.5
+GAMEPLAY 
+2. Lô đề bằng cách sử dụng lệnh: tz!lode {số tiền cược} {số cược (0-100)}
+Số tiền phải là số nằm trong phạm vi 0 < x < 1000000 , phải là số từ 0-100
+Thua mất tiền cược, thắng được x20 tiền nhận về
+Lệnh tz!match_id (id match) để xem log trận đấu
+-----------------------------------
+UPDATE 0.5.1
+Số tiền từ không có dấu ngăn cách sẽ có dấu ngăn cách
+1000000 --> 1,000,000
+----------------------------------
+update 0.6
+thay đổi cách chuyển tiền từ tag discord sang mention 
+tz!give 7938 10000 -----> tz!give @thay Hoa da den 10000
+----------------------------------
+update 0.7 
+more easter egg XD
+----------------------------------
+update 0.8
+change money information .txt to .json for easy to read and useless CPU and memory usage 
+----------------------------------
+update 0.8.1 
+convert .txt money file to .json
+command to move wallet to bank (bank amount <= 50,000,000) (.give_bank amount)
+bankcash to check bank amount 
+----------------------------------
+update 0.8.2
+fix VAR and add func save_information 
+
+
+
